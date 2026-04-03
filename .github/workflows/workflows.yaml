@@ -36,5 +36,8 @@ jobs:
         with:
           node-version: 24
 
+      - name: run ci
+        run: npm ci
+        
       - name: linter
         run: npm run lint
